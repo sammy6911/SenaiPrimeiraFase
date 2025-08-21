@@ -1,9 +1,18 @@
 programa {
   funcao inicio() {
-    inteiro idade=24 
-    cadeia nome= "robson"
-    idade=69
-    escreva ("meu nome e " + nome + " eu tehno  " + idade + " anos ")
-
-  }
+    real critico, dano, danoTotal, vida, vidaReduzida
+    vida = 666
+    critico = 2.0
+    escreva("Quanto de dano causado: ")
+    leia(dano)
+    danoTotal = dano * critico
+    vidaReduzida = vida - danoTotal
+    escreva("Robson está com " + vidaReduzida + " de vida")
+   //escreva("Dano total causado: " + danoTotal)
+   se (vida>=0){
+     escreva ("\nrobson esta morto")
+   }senao{
+    escreva ("\nrobson vai sobreviver")
+   }
+     }
 }
