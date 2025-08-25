@@ -11,12 +11,19 @@ programa {
     imc = peso/(altura*altura)
 
     escreva("Seu IMC é: " + imc+ "\n")
-   
-   se (imc >= 18.5 ou imc <=25){
+ 
+   se(imc >= 18.5 e imc <=25){
     escreva("Você está com o peso ideal")
    }senao{
-    escreva("Você não está com o peso ideal")
-   }
+    se(imc>25){ escreva("vc esta com sobre peso")
 
+    }senao{
+escreva ("vc esta abaixo do peso")
+    }
+
+    escreva("\nVocê não está com o peso ideal")
+   }
+   
+   }
   }
 }
