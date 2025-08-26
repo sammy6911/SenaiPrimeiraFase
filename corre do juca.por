@@ -24,5 +24,10 @@ programa {
     real salario
     salario=totalliquido*20
     escreva("\nestimativa de salario R$" + salario)
+     se (salario>5000){
+      escreva("\natingiu a meta")
+     }senao{
+      escreva("\nta pobre")
+     }
   } 
 }
