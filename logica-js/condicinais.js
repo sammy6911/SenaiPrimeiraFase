@@ -26,3 +26,4 @@ senha = prompt("digite a senha: ")
     console.log("acesso permitido 😎")
 } else {
  console.log("acesso negado 😒")}
+ 
